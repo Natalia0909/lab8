@@ -1,0 +1,99 @@
+html {
+   scroll-behavior: smooth;
+}
+
+html, body {
+   overflow-x: hidden;
+}
+
+body {
+   background-image:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../images/fonn.jpg);
+   background-color: rgba(219, 232, 232, 0.912) !important;
+   background-repeat: no-repeat;
+   background-size: cover;   
+   background-attachment: fixed;
+
+}
+.header {
+   background-color: rgba(90, 84, 63, 0.707);
+   display: flex;
+   box-sizing: border-box;
+   height: 15vh;
+   justify-content: space-between;
+   align-items: center;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   transition: top 0.3s;
+   z-index: 1000;
+}
+
+
+.logo {
+   margin-top: 9px;
+   margin-left: 9px;
+   height: 78px;
+}
+.block {
+   background-color: rgba(0, 0, 0, 0.619);
+   text-align: center;
+   margin-top: 50px;
+}
+.foto{
+   margin-top: 4px;
+   height: 253px;
+}
+.text-container {
+   text-align: center;
+   margin-top: 55px;
+}
+.text-top {
+   margin-top: 50px;
+   display: inline-block;
+   padding-left: 10px;
+   padding-right: 10px;
+   background-color: rgba(152, 148, 148, 0.584);
+   color: rgb(56, 26, 15);
+   font-size: 19px;
+   border-radius: 30%;
+}
+.text-name {
+   background-color: rgba(176, 161, 161, 0.6);
+   color: rgb(56, 26, 15);
+   font-size: 19px;
+   border-radius: 35%;
+   margin-top: 4px;
+   margin-block-end: 4px;
+}
+.table {
+   margin-top: 12px;
+}
+.text-container1 {
+   text-align: center;
+   margin-top: 90px;
+}
+.nav-link {
+   color:  #f65d17!important; 
+}
+
+.nav-link:hover {
+   color: darkorange !important; 
+}
+
+.nav-link.active {
+   color: orange;
+}
+
+.container {
+   text-align: center;
+}
+.text-container2{
+   text-align: center;
+   margin-top: 15px;
+}
+.vide {
+   margin-top: 10px;
+}
+.foto1 {
+   height: 318px;
+}
