@@ -93,6 +93,9 @@ body {
 .vide {
    margin-top: 10px;
 }
+img {
+   max-width: 100%;
+}
 .foto1 {
    height: 318px;
 }
