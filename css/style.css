@@ -28,6 +28,10 @@ body {
    z-index: 1000;
 }
 
+iframe {
+   border: none;
+}
+
 
 .logo {
    margin-top: 9px;
