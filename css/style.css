@@ -90,12 +90,13 @@ body {
    text-align: center;
    margin-top: 15px;
 }
-.vide {
-   margin-top: 10px;
-}
 img {
    max-width: 100%;
 }
+.vide {
+   margin-top: 10px;
+}
+
 .foto1 {
    height: 318px;
 }
